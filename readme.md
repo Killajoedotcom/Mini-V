@@ -2,12 +2,10 @@
 
 Mini-V is a compact core-xy printer with a build volume of 180mm³ using 2020 extrusions. The printer is designed to maximize print volume with a minimal footprint.
 
-_The design is stable with over 400 hours of print time on two alpha builds. As of mid-2024 we are entering an open beta and looking for early adopters._
-
-**More images coming soon**
+_October 2024 Update: We gathered a ton of great feedback from the Mini-V Group Build in Reno at VICE 2024. We have multiple builders sending in tips and feedback. We also now have full assembly CAD and a build guide available. Enjoy!_
 
 <p align="center">
-  <img width="600" src="images/Mini-V_Front_sept_2024.jpg">
+  <img width="1000" src="images/Mini-V_Render.png">
 </p>
 
 - Easy to build 2020 box design ✅
@@ -19,11 +17,12 @@ _The design is stable with over 400 hours of print time on two alpha builds. As 
 - Automatic bed leveling ✅
 - Easy belt tensioning knobs ✅
 - Hi-temp dual-mag tri-mount stay-put kinematic bed 😅 ✅
-- CAN Toolhead with dual 4010 part cooling ✅
+- Magnetic toolhead with dual 4010 part cooling ✅
 - Extra headroom for umbilical/PTFE tube ✅
 - Dedicated high-voltage and low-voltage areas ✅
 - No drag chains ✅
 - Mostly M3 SHCS and easy to source hardware ✅
+- Toolchanger ready! ↔️
 
 Prototype build log on Discord here: #"jv's Mini-V a custom compact 180³ build using 2020 and CF rods"
 
@@ -35,7 +34,13 @@ Prototype build log on Discord here: #"jv's Mini-V a custom compact 180³ build 
 - [RepRap History](./docs/RepRapHistory.md) for how this open source printer evolved
 - [TODO](./docs/TODO.md) for remaining design areas
 
-## Adopted Community Designs
+## Community Design
+
+Custom magnetic Yavoth toolhead mod with integrated PZ board mount:
+
+<p align="center">
+  <img width="1000" src="images/Magnetic_toolhead.png">
+</p>
 
 Although Mini-V is almost a completely custom design, it does utilize the following community designs:
 
